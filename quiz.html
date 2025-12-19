@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header> 
+        <h1 class="title">Fencing</h1> 
+        <div class="margin_left">
+            <a href="index.html"><button class="button_other">Home</button></a>
+            <a href="quiz.html"><button class="button_class">Quiz</button></a>
+        </div>
+    </header>
+    <div class="sidebar">
+        <nav>
+            <ul>
+                <li><a href="quiz.html">Question 1</a></li>
+                <li><a href="#Q1">Question 2</a></li>
+                <li><a href="#Q2">Question 3</a></li>
+                <li><a href="#Q3">Question 4</a></li>
+                <li><a href="#Q4">Question 5</a></li>
+                <li><a href="#Q5">Question 6</a></li>   
+                <li><a href="#Q6">Question 7</a></li>
+                <li><a href="#Q7">Question 8</a></li>   
+                <li><a href="#Q8">Question 9</a></li>
+                <li><a href="#Q9">Question 10</a></li>
+            </ul>
+            
+            <a href="error.html">login</a>
+            <a href="error.html">register</a>
+        </nav>
+    </div>
+
+    <section>
+        <form action="https://google.com" method="get">
+            <div class="div_box">
+                <h2 id="Q1">1. What are the three main types of fencing?</h2>
+                <label for="Q1_answer">Your answer: </label>   
+                <input type="text" name="Q1_answer" placeholder="answer">
+             </div>
+        
+             <div class="div_box">
+                <h2 id="Q2">2. Which type of fencing allows hits to the entire body?</h2>
+                <label for="Q2_answer">Your answer: </label> 
+                <input type="text" name="Q2_answer" required placeholder="answer">
+             </div>
+        
+             <div class="div_box">
+                <h2 id="Q3">3. In which century did fencing become an Olympic sport?</h2>
+                <label for="Q3_answer">Your answer: </label> 
+                <input type="text" name="Q3_answer" required placeholder="numerous">
+             </div>
+        
+             <div class="div_box">
+                <h2 id="Q4">4. What is the primary attack type in foil fencing?</h2>
+                <label for="Q4_answer">Your answer: </label> 
+                <input type="text" name="Q4_answer" required placeholder="One word">
+             </div>
+
+             <div class="div_box">
+                <h2 id="Q5">5. What physical benefits does fencing provide?</h2>
+                <label for="Q5_answer">Your answer: </label>
+                <input type="checkbox" name="c1" id="Endurance">Endurance
+                <input type="checkbox" name="c2" id="Agility">Agility
+                <input type="checkbox" name="c3" id="Precision">Precision
+                <br>
+            </div>
+
+            <div class="div_box">
+                <h2 id="Q6">6. Which weapon in fencing emphasizes cutting attacks above the waist?</h2>
+                <input type="radio" name="Q6_answer" value="Foil" required>Foil
+                <input type="radio" name="Q6_answer" value="Epee" required>Epee
+                <input type="radio" name="Q6_answer" value="Sabre" required>Sabre
+            </div>
+
+            <div class="div_box">
+                <h2 id="Q7">7. What strategic skills does fencing help to enhance?</h2>
+                <label for="Q2_answer">Your answer: </label>
+                <input type="text" name="Q7_answer" required>
+            </div>
+
+            <div class="div_box">
+                <h2 id="Q8">8. What is the target area for epee fencing?</h2>
+                <select name="Q8_answer" id="Q8_select" required>
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="A">Torso</option>
+                    <option value="B">Above Waist</option>
+                    <option value="C">Entire Body</option>
+                </select>
+
+            </div>
+
+            <div class="div_box">
+                <h2 id="Q9">9. How does fencing improve mental concentration?</h2>
+                <label for="Q9_answer">Your answer: </label>
+                <select name="Q9_answer" required>
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="A">By requiring quick reflexes</option>
+                    <option value="B">By encouraging strategic thinking</option>
+                    <option value="C">By promoting physical fitness</option>
+                </select>
+            </div>
+
+            <div class="div_box">
+                <h2 id="Q10">10. What is the main objective in a fencing match?</h2>
+                <label for="Q10_answer">Your answer: </label>
+                <input type="text" name="Q10_answer" placeholder="One word" required>
+            </div>
+
+            <br><br>
+        <div>
+            <input class="button_class" type="submit" value="Submit Answers">
+            <input class="button_class" type="reset" value="Reset Form">
+        </div>
+    </form>
+    </section>
+</body>
+</html>

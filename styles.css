@@ -1,0 +1,150 @@
+:root {
+    --header-height: 120px;
+    --sidebar-width: 220px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, rgb(229, 24, 24), rgb(97, 228, 210), rgb(81, 81, 203));
+    padding-top: var(--header-height);
+    padding-left: var(--sidebar-width);
+    margin: 0;
+}
+
+button {
+    padding: 18px 36px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.button_other {
+    color: rgb(183, 86, 227);
+    font-weight: bold;
+}
+
+.button_class {
+    font-weight: bold;
+    background: linear-gradient(90deg, #85cceb, #976af0,  #d457e4);
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    background: linear-gradient(#f5be60, #976af0);
+    color: white;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+header {
+    background-color: white;
+    background-image: url("https://t1.pixers.pics/img-1fb6f67c/stickers-noir-simple-geometrique-et-modele-blanc-minimaliste-les-lignes-fines-diagonales-peut-etre-utilise-comme-fond-d-39-ecran-fond-ou-de-texture.jpg?H4sIAAAAAAAAA3VOW27EIAy8DpGysQGHQA6wv3uECCXONs0LAe1WPX2Jqn5W1sj2yOMZ-DiSnxlGPjJH2Jdp2hjmZStb6iOn5ZsF1h1S1Rd2E4hY9ecnxzGeQdysrS90Tl2o-pcvwt3HVbzlHFIPkHQTlq_yrbQxwbgnUCg7QAOta41EptY5lMPh161c3taXn6LPTTieNV5V_eUgxJou_xyXXZRAZ7HK4j08K_jH7neGooL7A6QEo0FZUBLoIof7Q0qjlVWSBuWJiciN2hB5bY3tmI2bufWEhnVTjH4A96hwNTABAAA=");
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    text-align: center;
+    object-position: center;
+    border-radius: 0 0 5px 5px;
+    position: fixed;
+    height: var(--header-height);
+    z-index: 1000;
+}
+
+.sidebar {
+    position: fixed;
+    top: var(--header-height);
+    left: 0;
+    bottom: 0;
+    width: var(--sidebar-width);
+    background-color: white;
+    padding: 20px;
+    border-radius: 0 5px 5px 0;
+    background: linear-gradient(90deg, #46dbe6, #a2d8c2,  #ececec);
+}
+
+.sidebar nav a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 0;
+}
+
+.sidebar nav a:hover {
+    color: #976af0;
+}
+
+section {
+    padding: 30px;
+    margin: 20px;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+.title {
+    margin-left: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    float: left;
+}
+
+.margin_left {
+    float: right;
+    margin: 35px 50px 0 0;
+}
+
+.margin_top {
+    margin-top: 90%;
+    
+}
+
+.div_box {
+    height: 200px;
+    border: 2px solid #664cda;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #e0c3fc;
+    box-shadow: 6px 6px 10px #4b46d7;
+}
+
+.div-color {
+    background-color: #51e493;
+}
+
+.div-long {
+    height: 300px;
+}
+
+.footer {
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: white;
+    width: 100%;
+}
