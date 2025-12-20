@@ -47,6 +47,27 @@ button:hover {
     border-collapse: collapse;
 }
 
+.div_box {
+    height: 200px;
+    border: 2px solid #664cda;
+    margin: 20px;
+    padding: 15px;
+    white-space: normal;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: #e0c3fc;
+    box-shadow: 6px 6px 10px #4b46d7;
+}
+
+.div-color {
+    background-color: #51e493;
+}
+
+.div-long {
+    height: 300px;
+}
+
+
 header {
     background-color: white;
     background-image: url("https://t1.pixers.pics/img-1fb6f67c/stickers-noir-simple-geometrique-et-modele-blanc-minimaliste-les-lignes-fines-diagonales-peut-etre-utilise-comme-fond-d-39-ecran-fond-ou-de-texture.jpg?H4sIAAAAAAAAA3VOW27EIAy8DpGysQGHQA6wv3uECCXONs0LAe1WPX2Jqn5W1sj2yOMZ-DiSnxlGPjJH2Jdp2hjmZStb6iOn5ZsF1h1S1Rd2E4hY9ecnxzGeQdysrS90Tl2o-pcvwt3HVbzlHFIPkHQTlq_yrbQxwbgnUCg7QAOta41EptY5lMPh161c3taXn6LPTTieNV5V_eUgxJou_xyXXZRAZ7HK4j08K_jH7neGooL7A6QEo0FZUBLoIof7Q0qjlVWSBuWJiciN2hB5bY3tmI2bufWEhnVTjH4A96hwNTABAAA=");
@@ -67,7 +88,8 @@ header {
     top: var(--header-height);
     left: 0;
     bottom: 0;
-    width: var(--sidebar-width);
+    /* or width: var(--sidebar-width);*/
+    width: 18%;
     background-color: white;
     padding: 20px;
     border-radius: 0 5px 5px 0;
@@ -117,26 +139,8 @@ th, td {
 
 .margin_top {
     margin-top: 90%;
-    
 }
 
-.div_box {
-    height: 200px;
-    border: 2px solid #664cda;
-    margin: 20px;
-    padding: 15px;
-    border-radius: 15px;
-    background-color: #e0c3fc;
-    box-shadow: 6px 6px 10px #4b46d7;
-}
-
-.div-color {
-    background-color: #51e493;
-}
-
-.div-long {
-    height: 300px;
-}
 
 .footer {
     text-align: center;
@@ -147,4 +151,8 @@ th, td {
     padding: 10px;
     background-color: white;
     width: 100%;
+}
+
+@media (max-width: 768px) {
+    /* TODO: Adjust layout for smaller screens */
 }
